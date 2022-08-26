@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Aula 02</title>
+</head>
+<body>
+    <header class="topo">
+        <h1>PEDRA, PAPEL ou TESOURA!</h1>
+    </header>
+   <div class="container"> 
+        <div class="game">
+            <div class="placar">
+                <p>VOCÊ 0 X 0 PC</p>
+            </div>
+            <div class="botoesUser">
+                <button type="button" onclick="jogada(1)" id="pedra" class="botaoUser"></button>
+                <button type="button" onclick="jogada(2)" id="papel" class="botaoUser"></button>
+                <button type="button" onclick="jogada(3)" id="tesoura" class="botaoUser"></button>
+            </div>
+            <div class="escolhas">
+                <div class="escolhauser botaoUser"></div>
+                <p>X</p>
+                <div class="escolhapc botaoUser"></div>
+            </div>
+        </div>
+   </div>
+</body>
+<script src="./index.js"></script>
+</html>

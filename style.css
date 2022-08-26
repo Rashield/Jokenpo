@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+  }
+
+.topo{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+}
+.container{
+    width: 100vw;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: gray;
+}
+.placar{
+    display: inline-block;
+    font-size: 50px;
+    color: black;
+}
+.game{
+    margin-top: 10px;
+    background-color: rgb(203, 204, 145);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botaoUser{
+    height: 130px;
+    width: 130px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#pedra{
+    background-image: url(./imgs/pedra.png);
+}
+#papel{
+    background-image: url(./imgs/papel.png);
+}
+#tesoura{
+    background-image: url(./imgs/tesoura.png);
+}
+.escolhas{
+    display: flex;
+}
+
+.escolhas p{
+    font-size: 100px;
+}
